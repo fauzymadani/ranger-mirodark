@@ -1,0 +1,20 @@
+mirodark-ranger
+===============
+
+⚠️ This is a modified/ported version of [mirodark by Jerome Castaneda](https://github.com/djjcast/mirodark).  
+Original license: MIT.
+
+This fork adapts mirodark for use in:
+- ranger file manager
+- dark ST terminals
+- Jasonwryan-style DWM setups
+
+Installation
+============
+download the `mirodark.py` into ~/.config/ranger/colorscheme, and the open ranger and run `:set colorscheme mirodark` or change it in the ~/.config/ranger/rc.conf.
+the default color for the directory is purple, but if you want it white (more monochrome), set the
+```
+if context.directory:
+  fg = 97 # set to 252
+```
+All credit to the original author for the base colorscheme.
